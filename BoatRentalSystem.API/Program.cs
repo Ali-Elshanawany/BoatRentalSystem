@@ -13,6 +13,12 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<ICityRepository, CityRepository>();
 builder.Services.AddScoped<CityService>();
+builder.Services.AddScoped<IPackageRepository, PackageRepository>();
+builder.Services.AddScoped<PackageService>();
+builder.Services.AddScoped<ICountryRepository, CountryRepository>();
+builder.Services.AddScoped<CountryService>();
+builder.Services.AddScoped<IAdditionRepository, AdditionRepository>();
+builder.Services.AddScoped<AdditionService>();
 
 
 var app = builder.Build();
