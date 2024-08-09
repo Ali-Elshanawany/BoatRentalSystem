@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace BoatRentalSystem.Core.Interfaces
 {
-    public interface IAdditionRepository
+    public interface IAdditionRepository:IBaseRepository<Addition>
     {
-        Task<IEnumerable<Addition>> GetAllAdditions();
-        Task<Addition> GetAdditionById(int id);
-        Task AddAddition(Addition addition);
-        Task UpdateAddition(Addition addition);
-        Task DeleteAddition(int id);
+        //Task<IEnumerable<Addition>> GetAllAdditions();
+        //Task<Addition> GetAdditionById(int id);
+        //Task AddAddition(Addition addition);
+        //Task UpdateAddition(Addition addition);
+        //Task DeleteAddition(int id);
     }
 }

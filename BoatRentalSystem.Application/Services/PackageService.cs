@@ -1,4 +1,4 @@
-﻿namespace BoatRentalSystem.Application
+﻿namespace BoatRentalSystem.Application.Services
 {
     using BoatRentalSystem.Core.Entities;
     using BoatRentalSystem.Core.Interfaces;
@@ -14,26 +14,26 @@
 
         public Task<IEnumerable<Package>> GetAllPackages()
         {
-            return _packageRepository.GetAllPackages();
+            return _packageRepository.GetAllAsync();
         }
         public Task<Package> GetPackageById(int id)
         {
-            return _packageRepository.GetPackageById(id);
+            return _packageRepository.GetByIdAsync(id);
 
         }
         public Task AddPackage(Package package)
         {
-            return _packageRepository.AddPackage(package);
+            return _packageRepository.AddAsync(package);
         }
 
         public Task UpdatePackage(Package package)
         {
-            return _packageRepository.UpdatePackage(package);
+            return _packageRepository.UpdateAsync(package.Id, package);
         }
 
         public Task DeletePackage(int id)
         {
-            return _packageRepository.DeletePackage(id);
+            return _packageRepository.DeleteAsync(id);
         }
 
     }

@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace BoatRentalSystem.Core.Interfaces
 {
-    public interface IPackageRepository
+    public interface IPackageRepository:IBaseRepository<Package>
     {
-        Task<IEnumerable<Package>> GetAllPackages();
-        Task<Package> GetPackageById(int id);
-        Task AddPackage(Package package);
-        Task UpdatePackage(Package package);
-        Task DeletePackage(int id);
+        //Task<IEnumerable<Package>> GetAllPackages();
+        //Task<Package> GetPackageById(int id);
+        //Task AddPackage(Package package);
+        //Task UpdatePackage(Package package);
+        //Task DeletePackage(int id);
 
     }
 }
