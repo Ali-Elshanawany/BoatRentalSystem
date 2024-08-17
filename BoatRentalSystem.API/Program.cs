@@ -3,7 +3,9 @@ using BoatRentalSystem.Application.Services;
 using BoatRentalSystem.Core.Interfaces;
 using BoatRentalSystem.Infrastructure;
 using BoatRentalSystem.Infrastructure.Repositories;
+using Hangfire;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,11 +25,37 @@ builder.Services.AddScoped<CountryService>();
 builder.Services.AddScoped<IAdditionRepository, AdditionRepository>();
 builder.Services.AddScoped<AdditionService>();
 
+//Start AutoMapper Configuration
 builder.Services.AddAutoMapper(typeof(MappingProfile));
+//End  AutoMapper Configuration
 
+//Start  DB Configuration 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"),
 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+//End  DB Configuration 
+
+//Start Serilog Configuration
+var configuration = new ConfigurationBuilder()
+       .SetBasePath(Directory.GetCurrentDirectory())
+       .AddJsonFile("appsettings.json")
+       .Build();
+
+    Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(configuration)
+    .CreateLogger();
+
+    builder.Host.UseSerilog();
+//End Serilog Configuration
+
+//Start Hang fire Configuration
+builder.Services.AddHangfire(config =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    config.UseSqlServerStorage(connectionString);
+});
+
+//End Hang fire Configuration
 
 
 var app = builder.Build();
@@ -39,10 +67,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
 app.MapControllers();
+
+//Start Hang fire Configuration
+app.UseHangfireDashboard("/dashboard");
+app.UseHangfireServer();
+//End Hang fire Configuration
+
 
 app.Run();

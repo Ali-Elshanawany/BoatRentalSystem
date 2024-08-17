@@ -13,15 +13,20 @@
     {
         private readonly CityService _cityService;
         private readonly IMapper _mapper;
-        public CityController(CityService cityService, IMapper mapper)
+        private readonly ILogger<CityController> _logger;
+        public CityController(CityService cityService, IMapper mapper, ILogger<CityController> logger)
         {
             _cityService = cityService;
             _mapper = mapper;
+            _logger = logger;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CityViewModel>>> Get()
         {
+            //_logger.LogInformation("Hello From City Controller ");
+            //_logger.LogWarning("Debug");
+           
             var city = await _cityService.GetAllCities();
             var cityViewModel = _mapper.Map<IEnumerable<CityViewModel>>(city);
 
@@ -78,6 +83,24 @@
             return NoContent();
         }
 
+
+        //Testing Serilog
+        //
+        [HttpGet("test")]
+        public  IActionResult Test()
+        {
+            //try
+            //{
+            //    throw new NotImplementedException();
+            //}catch (Exception ex)
+            //{
+            //    _logger.LogError(ex.Message);
+            //}
+            _logger.LogInformation("Hello From City Controller ");
+            //_logger.LogWarning("Debug");
+
+            return Ok("OK");
+        }
     }
     
 }

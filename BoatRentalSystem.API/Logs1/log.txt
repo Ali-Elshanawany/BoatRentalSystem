@@ -1,0 +1,93 @@
+08/17/2024 15:17:56 +03:00 Hello From City Controller  
+ 08/17/2024 15:20:52 +03:00 Hello From City Controller  
+ 08/17/2024 17:19:57 +03:00 Start installing Hangfire SQL objects... 
+ 08/17/2024 17:19:59 +03:00 Hangfire SQL objects installed. 
+ 08/17/2024 17:19:59 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/17/2024 17:19:59 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/17/2024 17:19:59 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/17/2024 17:19:59 +03:00 Server desktop-ht66dte:532:6df46e19 successfully announced in 388.5924 ms 
+ 08/17/2024 17:19:59 +03:00 Server desktop-ht66dte:532:6df46e19 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/17/2024 17:19:59 +03:00 Server desktop-ht66dte:532:6df46e19 all the dispatchers started 
+ 08/17/2024 17:20:00 +03:00 An unhandled exception has occurred while executing the request. 
+ Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/Schedule" for actions - BoatRentalSystem.API.Controllers.ScheduleController.Enqueue (BoatRentalSystem.API),BoatRentalSystem.API.Controllers.ScheduleController.Schedule (BoatRentalSystem.API),BoatRentalSystem.API.Controllers.ScheduleController.Recurring (BoatRentalSystem.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+08/17/2024 17:20:44 +03:00 Start installing Hangfire SQL objects... 
+ 08/17/2024 17:20:44 +03:00 Hangfire SQL objects installed. 
+ 08/17/2024 17:20:44 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/17/2024 17:20:44 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/17/2024 17:20:44 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/17/2024 17:20:45 +03:00 Server desktop-ht66dte:27224:37d17230 successfully announced in 71.5454 ms 
+ 08/17/2024 17:20:45 +03:00 Server desktop-ht66dte:27224:37d17230 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/17/2024 17:20:45 +03:00 Server desktop-ht66dte:27224:37d17230 all the dispatchers started 
+ 08/17/2024 17:24:15 +03:00 Start installing Hangfire SQL objects... 
+ 08/17/2024 17:24:15 +03:00 Hangfire SQL objects installed. 
+ 08/17/2024 17:24:15 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/17/2024 17:24:15 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/17/2024 17:24:15 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/17/2024 17:24:16 +03:00 Server desktop-ht66dte:6620:6910b10e successfully announced in 78.6873 ms 
+ 08/17/2024 17:24:16 +03:00 Server desktop-ht66dte:6620:6910b10e is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/17/2024 17:24:16 +03:00 Server desktop-ht66dte:6620:6910b10e all the dispatchers started 
+ 08/17/2024 17:25:35 +03:00 Start installing Hangfire SQL objects... 
+ 08/17/2024 17:25:35 +03:00 Hangfire SQL objects installed. 
+ 08/17/2024 17:25:35 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/17/2024 17:25:35 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/17/2024 17:25:35 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/17/2024 17:25:35 +03:00 Server desktop-ht66dte:16352:3aa150c1 successfully announced in 74.8673 ms 
+ 08/17/2024 17:25:35 +03:00 Server desktop-ht66dte:16352:3aa150c1 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/17/2024 17:25:35 +03:00 Server desktop-ht66dte:16352:3aa150c1 all the dispatchers started 
+ 08/17/2024 17:25:35 +03:00 1 servers were removed due to timeout 
+ 08/17/2024 17:28:11 +03:00 Start installing Hangfire SQL objects... 
+ 08/17/2024 17:28:11 +03:00 Hangfire SQL objects installed. 
+ 08/17/2024 17:28:11 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/17/2024 17:28:11 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/17/2024 17:28:11 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/17/2024 17:28:11 +03:00 Server desktop-ht66dte:18876:8ebea002 successfully announced in 72.5983 ms 
+ 08/17/2024 17:28:11 +03:00 Server desktop-ht66dte:18876:8ebea002 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/17/2024 17:28:11 +03:00 Server desktop-ht66dte:18876:8ebea002 all the dispatchers started 
+ 08/17/2024 17:31:23 +03:00 Start installing Hangfire SQL objects... 
+ 08/17/2024 17:31:24 +03:00 Hangfire SQL objects installed. 
+ 08/17/2024 17:31:24 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/17/2024 17:31:24 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/17/2024 17:31:24 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/17/2024 17:31:24 +03:00 Server desktop-ht66dte:24304:b423abbb successfully announced in 80.7034 ms 
+ 08/17/2024 17:31:24 +03:00 Server desktop-ht66dte:24304:b423abbb is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/17/2024 17:31:24 +03:00 2 servers were removed due to timeout 
+ 08/17/2024 17:31:24 +03:00 Server desktop-ht66dte:24304:b423abbb all the dispatchers started 
+ 08/17/2024 17:33:43 +03:00 Stopping the server due to DomainUnload or ProcessExit event... 
+ 08/17/2024 17:33:43 +03:00 Server desktop-ht66dte:24304:b423abbb caught stopping signal... 
+ 08/17/2024 17:33:43 +03:00 Server desktop-ht66dte:24304:b423abbb caught stopped signal... 
+ 08/17/2024 17:33:43 +03:00 Server desktop-ht66dte:24304:b423abbb caught shutdown signal... 
+ 08/17/2024 17:33:43 +03:00 Server desktop-ht66dte:24304:b423abbb stopped non-gracefully due to Worker. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods. 
+ 08/17/2024 17:33:43 +03:00 Server desktop-ht66dte:24304:b423abbb successfully reported itself as stopped in 4.5225 ms 
+ 08/17/2024 17:33:43 +03:00 Server desktop-ht66dte:24304:b423abbb has been stopped in total 9.0546 ms 
+ 
