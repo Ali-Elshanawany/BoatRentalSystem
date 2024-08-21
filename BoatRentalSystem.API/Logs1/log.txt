@@ -90,4 +90,107 @@
  08/17/2024 17:33:43 +03:00 Server desktop-ht66dte:24304:b423abbb stopped non-gracefully due to Worker. Outstanding work on those dispatchers could be aborted, and there can be delays in background processing. This server instance will be incorrectly shown as active for a while. To avoid non-graceful shutdowns, investigate what prevents from stopping gracefully and add CancellationToken support for those methods. 
  08/17/2024 17:33:43 +03:00 Server desktop-ht66dte:24304:b423abbb successfully reported itself as stopped in 4.5225 ms 
  08/17/2024 17:33:43 +03:00 Server desktop-ht66dte:24304:b423abbb has been stopped in total 9.0546 ms 
+ 08/21/2024 01:39:46 +03:00 Start installing Hangfire SQL objects... 
+ 08/21/2024 01:39:48 +03:00 Hangfire SQL objects installed. 
+ 08/21/2024 01:39:48 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/21/2024 01:39:48 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/21/2024 01:39:48 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/21/2024 01:39:48 +03:00 Server desktop-ht66dte:26024:b4d13fd1 successfully announced in 397.0098 ms 
+ 08/21/2024 01:39:48 +03:00 Server desktop-ht66dte:26024:b4d13fd1 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/21/2024 01:39:48 +03:00 Server desktop-ht66dte:26024:b4d13fd1 all the dispatchers started 
+ 08/21/2024 01:39:48 +03:00 2 servers were removed due to timeout 
+ 08/21/2024 01:40:49 +03:00 Stopping the server due to DomainUnload or ProcessExit event... 
+ 08/21/2024 01:40:49 +03:00 Server desktop-ht66dte:26024:b4d13fd1 caught stopping signal... 
+ 08/21/2024 01:40:49 +03:00 Server desktop-ht66dte:26024:b4d13fd1 caught stopped signal... 
+ 08/21/2024 01:40:49 +03:00 Server desktop-ht66dte:26024:b4d13fd1 All dispatchers stopped 
+ 08/21/2024 01:40:49 +03:00 Server desktop-ht66dte:26024:b4d13fd1 caught shutdown signal... 
+ 08/21/2024 01:40:49 +03:00 Server desktop-ht66dte:26024:b4d13fd1 successfully reported itself as stopped in 4.5814 ms 
+ 08/21/2024 01:40:49 +03:00 Server desktop-ht66dte:26024:b4d13fd1 has been stopped in total 8.3124 ms 
+ 08/22/2024 00:12:59 +03:00 Start installing Hangfire SQL objects... 
+ 08/22/2024 00:13:02 +03:00 Hangfire SQL objects installed. 
+ 08/22/2024 00:13:02 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/22/2024 00:13:02 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/22/2024 00:13:02 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/22/2024 00:13:02 +03:00 Server desktop-ht66dte:29596:21b41584 successfully announced in 510.9684 ms 
+ 08/22/2024 00:13:02 +03:00 Server desktop-ht66dte:29596:21b41584 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/22/2024 00:13:02 +03:00 Server desktop-ht66dte:29596:21b41584 all the dispatchers started 
+ 08/22/2024 00:37:18 +03:00 Start installing Hangfire SQL objects... 
+ 08/22/2024 00:37:19 +03:00 Hangfire SQL objects installed. 
+ 08/22/2024 00:37:19 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/22/2024 00:37:19 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/22/2024 00:37:19 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/22/2024 00:37:19 +03:00 Server desktop-ht66dte:1452:c0e69836 successfully announced in 79.1464 ms 
+ 08/22/2024 00:37:19 +03:00 Server desktop-ht66dte:1452:c0e69836 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/22/2024 00:37:19 +03:00 Server desktop-ht66dte:1452:c0e69836 all the dispatchers started 
+ 08/22/2024 00:42:19 +03:00 1 servers were removed due to timeout 
+ 08/22/2024 00:45:55 +03:00 Start installing Hangfire SQL objects... 
+ 08/22/2024 00:45:56 +03:00 Hangfire SQL objects installed. 
+ 08/22/2024 00:45:56 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/22/2024 00:45:56 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/22/2024 00:45:56 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/22/2024 00:45:56 +03:00 Server desktop-ht66dte:3800:cc74c703 successfully announced in 65.1301 ms 
+ 08/22/2024 00:45:56 +03:00 Server desktop-ht66dte:3800:cc74c703 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/22/2024 00:45:56 +03:00 Server desktop-ht66dte:3800:cc74c703 all the dispatchers started 
+ 08/22/2024 00:50:56 +03:00 1 servers were removed due to timeout 
+ 08/22/2024 01:02:32 +03:00 Start installing Hangfire SQL objects... 
+ 08/22/2024 01:02:32 +03:00 Hangfire SQL objects installed. 
+ 08/22/2024 01:02:32 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/22/2024 01:02:32 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/22/2024 01:02:32 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/22/2024 01:02:32 +03:00 Server desktop-ht66dte:19268:542f2b22 successfully announced in 74.569 ms 
+ 08/22/2024 01:02:32 +03:00 Server desktop-ht66dte:19268:542f2b22 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/22/2024 01:02:32 +03:00 Server desktop-ht66dte:19268:542f2b22 all the dispatchers started 
+ 08/22/2024 01:03:40 +03:00 Start installing Hangfire SQL objects... 
+ 08/22/2024 01:03:40 +03:00 Hangfire SQL objects installed. 
+ 08/22/2024 01:03:40 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/22/2024 01:03:40 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/22/2024 01:03:40 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/22/2024 01:03:40 +03:00 Server desktop-ht66dte:26528:848bca38 successfully announced in 67.2354 ms 
+ 08/22/2024 01:03:40 +03:00 Server desktop-ht66dte:26528:848bca38 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/22/2024 01:03:40 +03:00 Server desktop-ht66dte:26528:848bca38 all the dispatchers started 
+ 08/22/2024 01:08:40 +03:00 2 servers were removed due to timeout 
+ 08/22/2024 01:11:23 +03:00 Start installing Hangfire SQL objects... 
+ 08/22/2024 01:11:23 +03:00 Hangfire SQL objects installed. 
+ 08/22/2024 01:11:23 +03:00 Starting Hangfire Server using job storage: 'SQL Server: (localdb)\MSSQLLocalDB@BoatRentalSystem' 
+ 08/22/2024 01:11:23 +03:00 Using the following options for SQL Server job storage: Queue poll interval: 00:00:00. 
+ 08/22/2024 01:11:23 +03:00 Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 
+ 08/22/2024 01:11:23 +03:00 Server desktop-ht66dte:6556:f6680408 successfully announced in 66.7319 ms 
+ 08/22/2024 01:11:23 +03:00 Server desktop-ht66dte:6556:f6680408 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, SqlServerHeartbeatProcess, Worker, DelayedJobScheduler, RecurringJobScheduler... 
+ 08/22/2024 01:11:23 +03:00 Server desktop-ht66dte:6556:f6680408 all the dispatchers started 
+ 08/22/2024 01:16:23 +03:00 1 servers were removed due to timeout 
+ 08/22/2024 01:18:05 +03:00 Stopping the server due to DomainUnload or ProcessExit event... 
+ 08/22/2024 01:18:05 +03:00 Server desktop-ht66dte:6556:f6680408 caught stopping signal... 
+ 08/22/2024 01:18:05 +03:00 Server desktop-ht66dte:6556:f6680408 caught stopped signal... 
+ 08/22/2024 01:18:05 +03:00 Server desktop-ht66dte:6556:f6680408 caught shutdown signal... 
+ 08/22/2024 01:18:05 +03:00 Server desktop-ht66dte:6556:f6680408 All dispatchers stopped 
+ 08/22/2024 01:18:05 +03:00 Server desktop-ht66dte:6556:f6680408 successfully reported itself as stopped in 3.7788 ms 
+ 08/22/2024 01:18:05 +03:00 Server desktop-ht66dte:6556:f6680408 has been stopped in total 7.9828 ms 
  

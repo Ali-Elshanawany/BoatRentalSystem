@@ -7,7 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Identity.Core" Version="2.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\BoatRentalSystem.Core\BoatRentalSystem.Core.csproj" />
+    <ProjectReference Include="..\BoatRentalSystem.Infrastructure\BoatRentalSystem.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
